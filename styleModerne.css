@@ -198,7 +198,7 @@ textarea {
     height: 120px;
 }
 button {
-    font-size: 1.5em;
+    font-size: 1.5vw;
     background-color: #FF9636;
     color: #0A4158;
 }
@@ -231,7 +231,7 @@ button:hover {
 #icons a {
     display: inline-block;
     padding: 0 15px;
-    font-size: 1.3em;
+    font-size: 1.3vw;
     color: #0A4158;
 }
 #icons a:hover {
