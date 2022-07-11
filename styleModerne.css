@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
+*, ::before ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #fff;
     background-image: url(fond.jpg);
@@ -55,35 +61,35 @@ header li a {
     padding: 25px 16px;
 }
 /* ************************************* HAUT_DE_PAGE ************************************* */
-#titre{
+
+h1 {
+    height: 200px;
     padding-top: 150px;
-    padding-bottom: 170px;
-    width: 100%;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 5vw;
+    color: #4B8378;
+    border-radius: 10%;
+    text-shadow: 3px 5px 5px black;
 }
 
-#titre1 {
-    clear: right;
-    padding-left: 500px;
-    font-size: 7em;
-    color: #4B8378;
-    border-radius: 10%;
-    text-shadow: 3px 5px 5px black;
-}
-#titre2 {
-    float: right;
-    padding-right: 500px;
-    font-size: 7em;
-    color: #4B8378;
-    border-radius: 10%;
-    text-shadow: 3px 5px 5px black;
-}
 /* ************************************* PRESENTATION ************************************* */
+p {
+    font-size: 1.2vw;
+}
+
+.auteur {
+    font-size: 1vw;
+}
+
 #hautDePage {
     background-color: #0A4158;
     margin-left: 50px;
     margin-top: 50px;
     height: 100px;
     width: 50%;
+    max-width: 1000px;
+    min-width: 400px;
     padding: 10px;
     text-align: center;
     color: #E4D7D0;
@@ -101,6 +107,7 @@ header li a {
 }
 .multicouche1 img {
     position: absolute;
+    margin: 0px auto;
 }  
 #couche1 {
     padding-left: 100px;
@@ -218,15 +225,16 @@ button:hover {
     color: #0A4158;
 }
 #icons {
-    width: 50%;
+    width: 80%;
     text-align: right;
 }
 #icons a {
     display: inline-block;
     padding: 0 15px;
     font-size: 1.3em;
+    color: #0A4158;
 }
 #icons a:hover {
     transform: scale(1.5);
-    transition: 0.1s;
+    transition: 0.5s;
 }
