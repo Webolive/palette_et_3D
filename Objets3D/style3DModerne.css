@@ -9,6 +9,12 @@ html {
     margin: 0;
     font-family: 'Kanit', cursive;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
 ul {
     padding: 0;
     margin: 0;
